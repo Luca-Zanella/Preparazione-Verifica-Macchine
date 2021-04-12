@@ -1,0 +1,1 @@
+# Preparazione-Verifica-Macchine
