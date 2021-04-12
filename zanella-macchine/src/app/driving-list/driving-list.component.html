@@ -3,9 +3,11 @@
 <ul>
     <li *ngFor="let mezzo of listaMezzi">
         tipo mezzo:{{ mezzo.tipo}} <br>
-        descrizione mezzo:{{ mezzo.descrizione}} <br>
         tariffa mezzo:{{mezzo.tariffa}} <br>
-        valutazione media mezzo:{{ mezzo.valutazionemedia}}
+        valutazione media mezzo:{{ mezzo.valutazionemedia}} <br>
+        <!--Metodo per poi noleggiare la macchina ogin bottone riceverà il suo mezzo-->
+        <button (click)="noleggia(mezzo)">Noleggia</button>
+        <hr>
       </li>
 </ul>
 
