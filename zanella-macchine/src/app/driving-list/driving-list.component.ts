@@ -15,7 +15,11 @@ export class DrivingListComponent implements OnInit {
 
 
   noleggia(mezzo){
-    console.log(mezzo)
+    this.rented.descrizione = mezzo.descrizione;
+    this.rented.tariffa = mezzo.tariffa;
+    this.rented.tipo = mezzo.tipo;
+    this.rented.valutazionemedia = mezzo.valutazionemedia;
+
   }
 }
 
