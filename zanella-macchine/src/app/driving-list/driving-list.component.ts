@@ -8,6 +8,7 @@ import { Mezzo } from '../models/mezzi.models';
 })
 export class DrivingListComponent implements OnInit {
   @Input() listaMezzi: Mezzo[];
+  @Input() rented:Mezzo;
   constructor() {}
 
   ngOnInit(): void {}

@@ -13,6 +13,8 @@ export class AppComponent implements OnInit {
   obsMezzi:Observable<Mezzo[]>
   //varabile che conterrà mezzo
   listaMezzi:Mezzo[];
+  //creo una nuovo Mezzo che poi io andrò a noleggiare
+  rented:Mezzo = new Mezzo("#","#","#","#");
 
   constructor(public http: HttpClient) {}
 

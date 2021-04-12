@@ -1,2 +1,5 @@
 <h1>Autonoleggio mezzi automatici</h1>
-<app-driving-list [listaMezzi]="listaMezzi"></app-driving-list>
+<!--Devo usare i lpassaggio per riferimento epr poter passare una variabile a più componenti che l'aggiorneranno per loro e la farò vedere come voglio io
+come una situazione padre figli-->
+<app-driving-list [listaMezzi]="listaMezzi" [rented]="rented"></app-driving-list>
+<app-rented [rented]="rented"></app-rented>
