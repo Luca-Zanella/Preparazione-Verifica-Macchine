@@ -10,6 +10,7 @@ export class RentedComponent implements OnInit {
 
    //vuole come input un mezzo per quersto non è un vettore
   @Input() rented:Mezzo;
+  
   constructor() { }
 
   ngOnInit(): void {
